@@ -18,7 +18,7 @@ std::vector<int> teaser::MaxCliqueSolver::findMaxClique(teaser::Graph graph) {
 
   // Create a PMC graph from the TEASER graph
   std::vector<int> edges;
-  vector<long long> vertices;
+  std::vector<long long> vertices;
   vertices.push_back(edges.size());
 
   const auto all_vertices = graph.getVertices();
